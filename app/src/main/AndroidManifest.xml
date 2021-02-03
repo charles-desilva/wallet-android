@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vaofim.boffin">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Boffin"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".viewcreditnotes"></activity>
+        <activity
+            android:name=".report1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tablerow"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PdfRenderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".accessreports"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".reportrowview"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".z_income_report_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewFundsInflowRecords"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".z_view_report"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ImageViewer"
+            android:screenOrientation="portrait" /> <!-- <service -->
+        <!-- android:name="Process_Classes.SyncData" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="true"></service> -->
+        <activity
+            android:name=".viewInvoice"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".singlerecordview"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".viewExpences"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".viewPayment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Forget_Password_Pincode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Change_Password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".homenew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".recordInvoices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".recordCreditNotes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".add_income"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".invoice_subcategory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".invoice_category"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".incomesubcategory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".incomecategory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addexpencessubcategory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addexpencescategory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addPayModes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addVat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addCustomer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addcurrency"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".singlecontent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".createaccount"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addPayments"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".forgetpassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gettingstart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

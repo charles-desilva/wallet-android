@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "122897185189",
+    "firebase_url": "https://boffin-4d8d0.firebaseio.com",
+    "project_id": "boffin-4d8d0",
+    "storage_bucket": "boffin-4d8d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122897185189:android:b275e1c239ab8526",
+        "android_client_info": {
+          "package_name": "com.vaofim.boffin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122897185189-l53kho3hp333qjjql0ud90ok2prc4cv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vaofim.boffin",
+            "certificate_hash": "6386cd2236dc273bc020f81deb567d8f0c1ec1b3"
+          }
+        },
+        {
+          "client_id": "122897185189-ng08dkj34ofe1tgpc25lkqhqigrl5ksg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxlgmffVdQjjEHDBK7XrxqiVABR18hqyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122897185189-ng08dkj34ofe1tgpc25lkqhqigrl5ksg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
